@@ -1,14 +1,44 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "items": [
+    {
+      "type": "Movie",
+      "id": "1234567890",
+      "name": "Movie A",
+      "director": "Director1",
+      "length": "120 min",
+      "rating": 5
+    },
+    {
+      "type": "Movie",
+      "id": "1234567891",
+      "name": "Movie B",
+      "director": "Director2",
+      "length": "140 min",
+      "rating": 4
+    },
+    {
+      "type": "Series",
+      "id": "1234567892",
+      "name": "Serie 1",
+      "director": "Dir 3",
+      "length": "60 min",
+      "rating": 5,
+      "season": 4,
+      "episode": 2
+    },
+    {
+      "type": "Article",
+      "id": "1234567893",
+      "name": "Article 1",
+      "author": "Author 1",
+      "rating": 5
+    },
+    {
+      "type": "Article",
+      "id": "1234567894",
+      "name": "Article 2",
+      "author": "Author 2",
+      "rating": 6
+    }
+  ]
 }
